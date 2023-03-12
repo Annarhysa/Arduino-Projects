@@ -9,9 +9,9 @@ This repository contains the code of 4 mini projects made on Arduino. The physic
 
 This is the list of all the projects in this repository 
 
-1. Rain Detection Using Arduino And Raindrop Sensor\
-2. Gas Detection Using Arduino And Gas Sensor\
-3. LED Controlling System Using Arduino And Bluetooth Modules\
+1. Rain Detection Using Arduino And Raindrop Sensor
+2. Gas Detection Using Arduino And Gas Sensor
+3. LED Controlling System Using Arduino And Bluetooth Modules
 4. Blinking of LED Using WiFi Mode (Node MCU)
 
 ## 1. Rain Detection Using Arduino And Raindrop Sensor
