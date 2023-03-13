@@ -69,9 +69,13 @@ It is a bluetooth module that works as a Serial to Bluetooth Convertor. It recei
 The MIT App Inventor is created by MIT to allow easy app creation. You need almost little to no programming knowledge to do this-there are just blocks which you have to move around.<br>
 
 <div align = "center">
-<img src = "https://projects.arduinocontent.cc/fcb77169-d234-4a40-bcee-d7f27bf8fcfa.png"></div>
+<img src = "./assets/fcb77169-d234-4a40-bcee-d7f27bf8fcfa.png"></div>
 <br>
 
 The main way this is going to work is when you click a button on the app on your phone. Then, there is a signal sent to the arduino uno via bluetooth communication, and the arduino receives the signal. Then, we can program the arduino to act based on this signal. We can use the MIT App Inventor to choose what signal gets sent. In this case, I have chosen to send text of '0' or '1'. However, you can change it to send whatever you'd like. 
+
+
+## 4. Blinking of LED Using WiFi Mode (Node MCU)
+
 
 
