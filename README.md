@@ -39,7 +39,7 @@ The circuit diagram is as follows:<br>
 
 The resistance of the sensor is different depending on the type of the gas. The smoke sensor has a built-in potentiometer that allows you to adjust the sensor digital output (D0) threshold. This threshold sets the value above which the digital pin will output a HIGH signal.<br>
 
-<img src = "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2016/04/smoke-sensor-label.png?resize=678%2C415&quality=100&strip=all&ssl=1">
+<img src = "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2016/04/smoke-sensor-label.png?resize=678%2C415&quality=100&strip=all&ssl=1" width = "80%">
 <br>
 
 The voltage that the sensor outputs changes accordingly to the smoke/gas level that exists in the atmosphere. The sensor outputs a voltage that is proportional to the concentration of smoke/gas.\
