@@ -60,9 +60,10 @@ You can access it with the following link: [https://appinventor.mit.edu/](https:
 The MIT app pings the LED through a bluetooth module called HC-05. The circuit diagram for the whole setup is as follows:<br>
 
 <div align = "center">
-<img src = "https://projects.arduinocontent.cc/3d05f774-5ac7-42d5-a622-b853c69ec4be.JPG"></div><br>
+<img src = "./assets/3d05f774-5ac7-42d5-a622-b853c69ec4be.JPG"></div><br>
 
-### HC-05 is a Serial Bluetooth module. It works as a Serial to Bluetooth Convertor. It receives data from the Serial RX pin and transmit the data to the paired device via Bluetooth and send it to the Serial TX pin.
+### HC-05 Serial Bluetooth module
+It is a bluetooth module that works as a Serial to Bluetooth Convertor. It receives data from the Serial RX pin and transmit the data to the paired device via Bluetooth and send it to the Serial TX pin.
 
 ### MIT App Inventor
 The MIT App Inventor is created by MIT to allow easy app creation. You need almost little to no programming knowledge to do this-there are just blocks which you have to move around.<br>
