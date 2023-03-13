@@ -75,7 +75,19 @@ The MIT App Inventor is created by MIT to allow easy app creation. You need almo
 The main way this is going to work is when you click a button on the app on your phone. Then, there is a signal sent to the arduino uno via bluetooth communication, and the arduino receives the signal. Then, we can program the arduino to act based on this signal. We can use the MIT App Inventor to choose what signal gets sent. In this case, I have chosen to send text of '0' or '1'. However, you can change it to send whatever you'd like. 
 
 
-## 4. Blinking of LED Using WiFi Mode (Node MCU)
+## 4. Blinking of LED Using WiFi Module (Node MCU: ESP8266)
+Here we have used Arduino and ESP8266 Wi-Fi Module to control the colors of RGB LED, through a Android Phone, over the Wi-Fi. Circuit Diagram of the project is given below. We mainly need a Arduino, ESP8266 Wi-Fi module and RGB LED. ESP8266’s Vcc and GND pins are directly connected to 3.3V and GND of Arduino and CH_PD is also connected with 3.3V. Tx and Rx pins of ESP8266 are directly connected to pin 2 and 3 of Arduino. Software Serial Library is used to allow serial communication on pin 2 and 3 of Arduino. Working of the RGB LED is simple, we have created three Sliders, using Blynk app, for controlling the intensity of three colors of RGB LED that is RED, GREEN and BLUE. And one button for Flashing the RGB LED in different pattern, according to Program code.<br>
+
+<div align = "center">
+<img src = "https://circuitdigest.com/sites/default/files/inlineimages/wifi-RGB-led-flasher-blynk-app_2.png"> <img src = "https://th.bing.com/th/id/R.dedc65e123a46700f33f9f65b5e4e775?rik=Tt2703Q0vtytRw&riu=http%3a%2f%2fwww.notespoint.com%2fwp-content%2fuploads%2f2017%2f10%2fNodeMCU-Relay_bb2.jpg&ehk=q%2bi5No96e6v8FhbaMGzEIwgwz3kqEadXIfFYNUrKNBk%3d&risl=&pid=ImgRaw&r=0" width = "65%"></div><br>
+
+In this RGB Flasher LED, we have used an Android Mobile App named “Blynk”. Blynk is a very compatible app with Arduino, to make IoT based project. This App can be downloaded from the Google Play Store, and can be easily configured.
+The ESP8266 is an inexpensive WiFi module that enables makers and entrepreneurs to develop low-cost electronics for integration into the Internet of Things (IoT). Designed by Espressif Systems (see their datasheet for the module here), the ESP8266 is targeted towards the open-source market, which has resulted in an active and mature assemblage of resources. <br>
+
+<div align = "center">
+<img src = "https://images.squarespace-cdn.com/content/v1/59b037304c0dbfb092fbe894/1518991208256-9X74BMVCDT432N2LF0UW/ESP_8266_photo.jpg?format=750w">
+</div>
+
 
 
 
